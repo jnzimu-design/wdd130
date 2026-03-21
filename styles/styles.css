@@ -1,7 +1,7 @@
 :root {
-    --heading-backgroung-color: #f06;
+    --heading-background-color: #f06;
     --heading-text-color: #333;
-    --headinf-font: 'Montserrat', Helvetica, sans-serif;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
