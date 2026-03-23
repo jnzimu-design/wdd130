@@ -36,10 +36,10 @@ header img {
     width: 120px;
 }
 
-header {
+/* header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-}
+} */
 
 nav a {
     text-decoration: none;
