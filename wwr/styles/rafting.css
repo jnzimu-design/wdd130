@@ -1,11 +1,11 @@
 /* 23 Mars 2026 */
 :root {
-    --primary-color: #0a9396;
-    --secondary-color: #94d2bd;
-    --accent1-color: #005f73;
-    --accent2-color: #ee9b00;
-    --heading-font: Arial, sans-serif;
-    --body-font: Verdana, sans-serif;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
