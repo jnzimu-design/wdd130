@@ -6,6 +6,13 @@
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,17 +21,25 @@
 
 nav {
     background-color: darkblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    /* shorthand for white */
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid #000;
 }
 
 main img {
@@ -59,6 +74,22 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+main {
+    grid-column: 2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+
 }
 
 aside h2 {
