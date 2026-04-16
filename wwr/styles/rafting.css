@@ -160,7 +160,7 @@ footer {
     grid-template-columns: 1fr 200px;
     align-items: center;
     padding: 20px;
-    background-color: #d6c9f0;
+    background-color: var(--accent2-color);
 }
 
 .socialmedia {
