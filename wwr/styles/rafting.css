@@ -1,8 +1,9 @@
 :root {
+    --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -29,11 +30,12 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     padding: 20px;
-    background-color: #d6c9f0;
+    background-color: var(--secondary-color);
 }
 
 header img {
     width: 100px;
+    height: auto;
 }
 
 .navigation {
@@ -91,8 +93,10 @@ h2 {
 }
 
 .hero article img {
-    width: 100px;
+    width: 125px;
     justify-self: end;
+    float: right;
+
 }
 
 .history {
