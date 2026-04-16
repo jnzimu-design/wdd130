@@ -56,7 +56,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: black;
+    color: var(--primary-color);
 }
 
 .hero {
