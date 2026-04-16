@@ -46,6 +46,7 @@ header img {
 }
 
 .navigation a {
+    background-color: var(--accent2-color);
     text-decoration: none;
     color: black;
     background-color: white;
