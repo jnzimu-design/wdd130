@@ -166,7 +166,25 @@ padding: 20px;
     margin-top: 20px;
 }
 
-. .team img {
+.team {
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team img {
     width: 100%;
     justify-items: auto;
     border: 1px solid #ccc;
