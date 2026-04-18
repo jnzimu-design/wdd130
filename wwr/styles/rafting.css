@@ -86,7 +86,6 @@ h2 {
     background-color: white;
     border: 1px solid black;
     padding: 15px;
-
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
@@ -167,28 +166,7 @@ padding: 20px;
     margin-top: 20px;
 }
 
-.team {
-    margin-top: 30px;
-    border: 1px solid black;
-    padding: 20px;
-    background-color: #f9f9f9;
-
-    display: flex;
-    flex-wrap: wrap;
-    /* IMPORTANT */
-    justify-content: space-around;
-    gap: 20px;
-    /* espace entre les photos */
-}
-
-.team h2 {
-    width: 100%;
-    /* force le titre à passer au-dessus */
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.team img {
+. .team img {
     width: 100%;
     justify-items: auto;
     border: 1px solid #ccc;
@@ -197,7 +175,6 @@ padding: 20px;
 .team figure {
     width: 200px;
     margin: 0;
-    /* évite les décalages bizarres */
 }
 
 .team h2 {
