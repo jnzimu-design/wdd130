@@ -10,6 +10,27 @@
     --box-shadow: 0 0 30px #333;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: goldenrod;
+    color: #fff;
+}
+
+/* aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+} */
+
 nav {
     background-color: var(--heading-background-color);
     padding: 10px;
@@ -33,6 +54,10 @@ main img {
     box-shadow: var(--box-shadow);
 }
 
+main img {
+    float: right;
+}
+
 h1 {
     color: var(--heading-text-color)
 }
@@ -51,11 +76,6 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1px;
-    border: var(--border-color);
-    padding: 1rem;
-    background-color: #eeeeee;
-    color: #333;
     text-align: center;
 }
 
