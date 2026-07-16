@@ -1,5 +1,17 @@
+:root {
+    --heading-background-color: #00008b;
+    --heading-text-color: darkblue;
+    --heading-font: 'arial', Helvetica, sans-serif;
+    --body-font: #000000;
+    --default-spacing: 1rem;
+    --spacing-small: 2px;
+    --border-color: 1px solid rgb(0 0 0 / 0.1);
+    --background-color: darkblue;
+    --box-shadow: 0 0 30px #333;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -16,21 +28,21 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px #333;
+    border: var(--border-color);
+    padding: var(--spacing-small);
+    box-shadow: var(--box-shadow);
 }
 
 h1 {
-    color: darkblue
+    color: var(--heading-text-color)
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: var(--border-color);
+    padding: var(--spacing-small);
+    box-shadow: var(--box-shadow)
 }
 
 p {
@@ -40,9 +52,9 @@ p {
 aside {
     width: 20rem;
     margin: 1px;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: var(--border-color);
     padding: 1rem;
-    background-color: #eee;
+    background-color: #eeeeee;
     color: #333;
     text-align: center;
 }
@@ -54,6 +66,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border-color);
     text-align: center;
 }
