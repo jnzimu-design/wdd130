@@ -99,6 +99,7 @@ article {
     float: right;
     width: 125px;
     margin-left: var(--default-spacing);
+    border: var(--spacing-small) solid white;
 }
 
 /* Footer */
@@ -106,10 +107,5 @@ footer {
     margin-top: 0;
     border-top: var(--border-color);
     text-align: left;
-    padding: 1px;
-}
-
-footer p,
-footer nav {
-    margin: 0;
+    padding: var(--spacing-small);
 }
