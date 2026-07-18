@@ -22,6 +22,7 @@
 body {
     font-family: var(--body-font);
     color: var(--body-font);
+
 }
 
 header,
@@ -62,6 +63,7 @@ article {
     position: relative;
     background-color: #07072e71;
     color: #fff;
+    top: px;
 }
 
 .hero img {
