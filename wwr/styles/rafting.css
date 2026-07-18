@@ -1,30 +1,29 @@
 :root {
     --heading-background-color: #00008b;
-    --heading-text-color: darkblue;
-    --heading-font: 'arial', Helvetica, sans-serif;
-    --body-font: #000000;
+    --heading-text-color: #ffffff;
+    --heading-font: Arial, Helvetica, sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
     --default-spacing: 1rem;
     --spacing-small: 2px;
-    --border-color: 1px solid rgb(0 0 0 / 0.1);
+    --border-color: 1px solid rgb(0 0 0 / 10%);
     --background-color: rgba(2, 16, 63, 0.692);
-    --box-shadow: 0 0 30px #333;
+    --box-shadow: 0 0 30px #33333369;
 }
 
-/* page reset */
-
+/* Page Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* The body font */
+/* Body */
 body {
     font-family: var(--body-font);
-    color: var(--body-font);
-
+    color: #000;
 }
 
+/* Main Layout */
 header,
 main,
 footer {
@@ -32,25 +31,26 @@ footer {
     margin: 0 auto;
 }
 
+/* Headings */
 h1,
 h2 {
-    font-family: var(--heading-background-color);
-    color: #fff;
-    background-color: #07072e;
-    padding: 12px;
-    display: flex;
+    font-family: var(--heading-font);
+    color: var(--heading-text-color);
+    background-color: var(--heading-background-color);
+    padding: var(--default-spacing);
     text-align: center;
 }
 
+/* Spacing */
 nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
-    position: relative;
+    margin: var(--default-spacing);
+    padding: var(--default-spacing);
 }
 
+/* Social Media */
 .socialmedia a {
     text-decoration: none;
 }
@@ -59,11 +59,10 @@ article {
     width: 50px;
 }
 
+/* Hero Section */
 .hero {
     position: relative;
-    background-color: #07072e71;
     color: #fff;
-    top: px;
 }
 
 .hero img {
@@ -72,24 +71,45 @@ article {
     height: auto;
 }
 
-h1 {
+/* Hero Heading */
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
+    background-color: var(--background-color);
+    color: var(--heading-text-color);
     text-align: center;
-    opacity: 0.7;
+    padding: var(--default-spacing);
+    opacity: 0.8;
+}
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
     background-color: var(--background-color);
     color: #fff;
+    box-shadow: var(--box-shadow);
+    opacity: 0.8;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: var(--default-spacing);
 }
 
+/* Footer */
 footer {
-    margin-top: 14px;
+    margin-top: 0;
     border-top: var(--border-color);
     text-align: left;
+    padding: 1px;
+}
+
+footer p,
+footer nav {
+    margin: 0;
 }
