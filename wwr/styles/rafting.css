@@ -1,12 +1,12 @@
 :root {
-    --heading-background-color: #00008b;
+    --heading-background-color: #7e7c1f;
     --heading-text-color: #ffffff;
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
     --default-spacing: 1rem;
     --spacing-small: 2px;
     --border-color: 1px solid rgb(0 0 0 / 10%);
-    --background-color: rgba(2, 16, 63, 0.692);
+    --background-color: rgba(63, 62, 2, 0.692);
     --box-shadow: 0 0 30px #33333369;
 }
 
