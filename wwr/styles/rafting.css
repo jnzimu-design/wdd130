@@ -87,8 +87,8 @@ article {
 .hero article {
     position: absolute;
     bottom: 20px;
-    left: 20px;
-    right: 20px;
+    left: 0.7px;
+    right: 10px;
     background-color: var(--background-color);
     color: #fff;
     box-shadow: var(--box-shadow);
