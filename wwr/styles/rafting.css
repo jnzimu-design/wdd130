@@ -16,7 +16,7 @@
 body {
     font-family: Arial, sans-serif;
     background: var(--light-color);
-    color: #333;
+    color: var(--text-color);
 }
 
 /* Main Width */
@@ -39,6 +39,7 @@ header {
 
 header img {
     width: 120px;
+    height: auto;
 }
 
 .navigation {
@@ -106,13 +107,12 @@ header img {
     margin: 20px 0;
 
     display: grid;
-    grid-template-columns: 1 300px 1fr;
+    grid-template-columns: 1fr 200px 1fr;
     gap: 20px;
     align-items: center;
 }
 
 .history h2 {
-    list-style: none;
     grid-column: 1 / 5;
     text-align: center;
     margin-bottom: 15px;
@@ -142,8 +142,12 @@ header img {
     margin-bottom: 15px;
 }
 
+.adventure figure {
+    text-align: center;
+}
+
 .adventure img {
-    width: 80%;
+    width: 100%;
     height: 120px;
     object-fit: cover;
 
