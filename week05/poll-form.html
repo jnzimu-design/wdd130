@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form User Poll</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <label for="username">Full name:</label>
+            <input type="text" name="fullname" id="fullname" required>
+
+            <label for="email">Email Adress:</label>
+            <input type="email" name="useremail" id="useremail" required>
+
+            <label for="quantity">What is your favorite internet browser?</label>
+            <select name="quantity" id="quantity">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="edge">Edge</option>
+            </select>
+            <label for="pet">Do you have a house pet?</label>
+            <input type="checkbox" name="pet" id="pet">
+            <label for="feedback">list the places you have lived:</label>
+            <textarea name="feedback" id="feedback" rows="4"
+              placeholder="stillwater Florida, Amsterdam Netherland, Timbuktu Mali"></textarea>
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
