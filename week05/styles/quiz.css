@@ -43,6 +43,10 @@ button {
     border: 1px solid rgb(0 0 0 /10%);
 }
 
+button:hover {
+    background-color: darkgreen;
+}
+
 code {
     display: block;
     background-color: #000;
