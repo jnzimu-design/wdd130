@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Form User Poll</title>
+    <meta name="description" content="this is a user form interface">
+    <meta name="author" content="Jacques O. Nzimu">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 
 <body>
@@ -13,11 +16,15 @@
     </header>
     <main>
         <form>
-            <label for="username">Full name:</label>
-            <input type="text" name="fullname" id="fullname" required>
+            <div class="form-item column2">
+                <label for="username">Full name:</label>
+                <input type="text" name="fullname" id="fullname" required>
+            </div>
 
-            <label for="email">Email Adress:</label>
-            <input type="email" name="useremail" id="useremail" required>
+            <div class="form-item column2">
+                <label for="email">Email Adress:</label>
+                <input type="email" name="useremail" id="useremail" required>
+            </div>
 
             <label for="quantity">What is your favorite internet browser?</label>
             <select name="quantity" id="quantity">
