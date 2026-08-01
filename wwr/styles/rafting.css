@@ -211,8 +211,8 @@ button {
 }
 
 button:hover {
-    background: var(--dark-color);
-    color: var(--light-color);
+    background: darkgreen;
+    color: #ffffff;
 }
 
 /* Footer */
