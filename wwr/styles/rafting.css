@@ -238,3 +238,43 @@ footer {
     width: 40px;
     height: auto;
 }
+
+/* Home Page */
+.hero1 img {
+    width: 100%;
+    display: block;
+}
+
+.hero1 h1 {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 100%;
+    text-align: center;
+    color: gold;
+    padding: 10px;
+}
+
+.hero1 h2 {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+    padding: 15px;
+}
+
+.hero1 button {
+    position: absolute;
+    left: 420px;
+    top: 400px;
+    width: 10rem;
+    text-align: center;
+    background-color: goldenrod;
+    color: var(--text-color);
+}
+
+.hero1 button:hover {
+    color: var(--light-color);
+}
