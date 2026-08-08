@@ -1,18 +1,20 @@
+<!-- 05/08/2026 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <meta name="description" content="This is the White Water Rafting Home Page">
+    <title>WhiteWater Rafting</title>
+    <meta name="description" content="Experience exciting whitewater rafting adventure">
     <meta name="author" content="Jacques O. Nzimu">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="Wwr Logo" width="200">
+        <img src="images/logo.png" alt="Whitewater rafting Logo">
+
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
@@ -21,37 +23,80 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
-        <div class="hero1">
-            <img src="images/background.jpg" alt="whitewater rafting background">
-            <h1>Adventure Begins Here</h1>
-            <h2>Make Memory with dry Oar</h2>
-            <button type="submit">Book Now</button>
-            <article>
-                <img src="images/happy-clients.jpg" alt="Happy clients is our goal">
-                <p>The aim to deliver safe, fun, and memorable rafting experiences for
-                    adventurers of all ages while promoting a love for nature and outdoor
-                    recreation.
+        <section class="hero"> <img src="images/background.png" alt="Whitewater rafting adventure">
+
+            <h1>Adventure Begins Here!</h1>
+
+        </section>
+
+        <section class="newsletter">
+            <h2>Join Our Adventure Newsletter</h2>
+            <p>Get updates about new rafting adventures, special offers, and outdoor activities.</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <section class="call-to-action">
+                <h2>Ready for Your Next Adventure?</h2>
+                <p>Explore our exciting rafting trips and find the adventure that is right for you.
                 </p>
-            </article>
-        </div>
+                <a href="trips.html">Explore Our Trips</a>
+            </section>
+
+            <section class="home-grid">
+
+                <div class="home-card">
+                    <img src="images/happy-clients.jpg"
+                      alt="Happy rafting clients enjoying their adventure">
+
+                    <div>
+                        <h2>Adventure for Everyone</h2>
+                        <p>
+                            WhiteWater Rafting provides exciting outdoor experiences for
+                            families, friends, and adventure seekers. Our goal is to make
+                            every trip safe, enjoyable, and memorable.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="home-card">
+                    <img src="images/history.jpg"
+                      alt="Whitewater rafting in a natural river environment">
+
+                    <div>
+                        <h2>Our Purpose</h2>
+                        <p>
+                            We are passionate about bringing people closer to nature
+                            through exciting river adventures. Our experienced guides
+                            help guests enjoy the water while following important safety
+                            practices.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
     </main>
 
     <footer>
         <p>©2026 🌴WhiteWater Rafting🌴 Jacques O. Nzimu</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com">
-                <img src="images/facebook-logo.png" alt="Facebook Logo">
-            </a>
-            <a href="https://www.instagram.com">
-                <img src="images/instagram-logo.png" alt="Instagram logo">
-            </a>
-            <a href="https://x.com">
-                <img src="images/x-logo.png" alt="X logo">
-            </a>
-        </nav>
+        <nav class="socialmedia"> <a href="https://www.facebook.com"> <img
+                  src="images/facebook-logo.png" alt="Facebook Logo"> </a> <a
+              href="https://www.instagram.com"> <img src="images/instagram-logo.png"
+                  alt="Instagram Logo"> </a> <a href="https://x.com"> <img src="images/x-logo.png"
+                  alt="X Logo"> </a> </nav>
     </footer>
 
 </body>
